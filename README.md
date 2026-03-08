@@ -1,8 +1,8 @@
 
 # Multicoder - Go Edition
 
-# This code was originally created by @dnbt777, I changed it to golang, added a few features, and took out other things to fit my personal needs.
-# Link -- https://github.com/dnbt777/EasyModularScripts.git
+## This code was originally created by @dnbt777, I changed it to golang, added a few features, and took out other things to fit my personal needs.
+## Link -- https://github.com/dnbt777/EasyModularScripts.git
 
 ## Setup
 
