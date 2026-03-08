@@ -4,7 +4,7 @@
 ## Setup
 
 1. Install Go 1.21 or later
-2. Copy `.env.example` to `.env` and configure values
+2. Copy `example.env` to `.env` and configure values
 3. Run `go mod download`
 4. Build:
    ```bash

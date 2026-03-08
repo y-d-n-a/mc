@@ -24,6 +24,7 @@ go.work
 .env
 models.json
 *.txt
+!base_golang.txt
 
 
 ## IDE ##
