@@ -17,10 +17,13 @@ go.work
 
 
 ## DIRECTORIES ##
-*/
+
 
 
 ## FILES ##
+.env
+models.json
+*.txt
 
 
 ## IDE ##
@@ -44,7 +47,3 @@ __pycache__
 ## TEMPORARY ##
 tmp/*
 temp/*
-
-
-## GIT-CRYPT ##
-git-crypt-key-*
