@@ -24,6 +24,7 @@ type ChatRequest struct {
 	Model       string    `json:"model"`
 	Messages    []Message `json:"messages"`
 	MaxTokens   int       `json:"max_tokens"`
+	Think       bool      `json:"think"`
 	Temperature float64   `json:"temperature"`
 }
 
@@ -145,10 +146,13 @@ func (mi *ModelInterface) invokeOpenRouter(prompt, model string, maxTokens int, 
 		}
 	}
 
+	think := false
+
 	chatReq := ChatRequest{
 		Model:       model,
 		Messages:    reqMessages,
 		MaxTokens:   maxTokens,
+		Think:       think,
 		Temperature: temperature,
 	}
 
